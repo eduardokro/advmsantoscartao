@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mauricélia Santos | Cartão Digital</title>
+    <style>
+        body {
+            background-color: #0A1931; /* Azul Marinho */
+            color: #F4F1EA; /* Off-White */
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #C49A6C; /* Dourado */
+            object-fit: cover;
+            /* AQUI ESTÁ O AJUSTE:
+               'center' alinha na horizontal.
+               '20%' foca na parte de cima da foto (descendo a imagem). 
+               Se precisar descer mais, diminua para 15% ou 10%.
+               Se precisar subir, aumente para 30% ou 40%. */
+            object-position: center 20%; 
+            margin-bottom: 15px;
+            background-color: #ddd; 
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            color: #C49A6C; /* Dourado */
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        p {
+            font-size: 0.9rem;
+            margin-top: 5px;
+            opacity: 0.8;
+        }
+        .btn {
+            display: block;
+            background-color: transparent;
+            border: 1px solid #C49A6C;
+            color: #F4F1EA;
+            padding: 15px;
+            margin: 10px 0;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: 0.3s;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background-color: #C49A6C;
+            color: #0A1931;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.7rem;
+            opacity: 0.5;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <img src="profile.png" alt="Dra. Mauricélia Santos" class="profile-img">
+        
+        <h1>Mauricélia Santos</h1>
+        <p>Advogacia e Assessoria Jurídica<br>OAB/PE 48.896</p>
+
+        <br>
+
+        <a href="https://wa.me/5581997199683?text=Ol%C3%A1%2C+Dra.+Mauric%C3%A9lia.+Vim+pelo+seu+cart%C3%A3o+digital." class="btn">
+            📱 Falar no WhatsApp
+        </a>
+
+        <a href="https://advmsantos.com.br/" class="btn">
+            🌐 Visitar Site Oficial
+        </a>
+
+        <a href="https://www.instagram.com/advmauriceliasantos/" class="btn">
+            📷 Instagram
+        </a>
+        
+        <a href="mailto:contato@advmsantos.com.br" class="btn">
+            📧 Enviar E-mail
+        </a>
+
+        <div class="footer">
+            ©️ 2026 Mauricélia Santos Advocacia
+        </div>
+    </div>
+
+</body>
+</html>
